@@ -23,4 +23,4 @@ compute_hosts = common.parse_compute_hosts(config['compute_hosts'])
 
 common.execute_on_hosts(
     compute_hosts,
-    ['./openstack-neat/setup/deps-centos.sh'])
+    ['./openstack-neat/setup/deps-fedora-devstack.sh'])
