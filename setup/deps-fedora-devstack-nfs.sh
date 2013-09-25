@@ -14,7 +14,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-sudo yum install -y nfs-common nfs-utils
+sudo yum install -y nfs-utils
 sudo service rpcbind start
 sudo mkdir /var/lib/nova
 sudo mkdir /var/lib/nova/instances
