@@ -23,6 +23,6 @@ compute_hosts = common.parse_compute_hosts(config['compute_hosts'])
 
 common.execute_on_hosts(
     compute_hosts, 
-    ['git clone git@github.com:beloglazov/openstack-neat.git',
+    ['git clone https://github.com/mscs-usp/openstack-neat.git',
      'cd openstack-neat',
      'git pull origin master'])
