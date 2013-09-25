@@ -15,5 +15,6 @@
 # limitations under the License.
 
 sudo yum install -y scipy nfs-common nfs-utils
-sudo pip install --upgrade pyqcy PyContracts SQLAlchemy bottle requests Sphinx python-novaclient
+#sudo pip install --upgrade SQLAlchemy 
+sudo pip install --upgrade pyqcy PyContracts bottle requests Sphinx python-novaclient
 sudo pip install mocktest
