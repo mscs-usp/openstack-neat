@@ -139,7 +139,7 @@ class Database(object):
                               'cpu_mhz': cpu_mhz})
             self.vm_resource_usage.insert().execute(query)
 
-    @contract
+#    @contract
     def update_host(self, hostname, cpu_mhz, cpu_cores, ram):
         """ Insert new or update the corresponding host record.
 
